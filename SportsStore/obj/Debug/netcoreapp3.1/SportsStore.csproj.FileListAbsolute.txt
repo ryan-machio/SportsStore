@@ -92,3 +92,15 @@ C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\zh-H
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CopyComplete
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\SportsStore.Views.dll
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\SportsStore.Views.pdb
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorAssemblyInfo.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorAssemblyInfo.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.TagHelpers.input.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.TagHelpers.output.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorCoreGenerate.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Product\List.cshtml.g.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.RazorTargetAssemblyInfo.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.Views.pdb
