@@ -137,3 +137,4 @@ C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Cast
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs

@@ -16,7 +16,7 @@ namespace SportsStore
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration) => Configuration = configuration; 
+        public Startup(IConfiguration configuration) => Configuration = configuration;
         public IConfiguration Configuration { get; }
         public void ConfigureServices(IServiceCollection services)
         {
@@ -36,6 +36,11 @@ namespace SportsStore
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "pagination",
+                    pattern: "Products/Page{productPage}",
+                    defaults: new { Controller = "Product", action = "List" });
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Product}/{action=List}/{id?}");
