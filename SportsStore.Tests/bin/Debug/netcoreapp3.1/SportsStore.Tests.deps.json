@@ -8,15 +8,29 @@
     ".NETCoreApp,Version=v3.1": {
       "SportsStore.Tests/1.0.0": {
         "dependencies": {
+          "Bower": "1.3.11",
           "Microsoft.NET.Test.Sdk": "16.5.0",
           "Moq": "4.13.1",
           "SportsStore": "1.0.0",
+          "bootstrap": "4.4.1",
           "coverlet.collector": "1.2.1",
           "xunit": "2.4.1",
           "xunit.runner.visualstudio": "2.4.1"
         },
         "runtime": {
           "SportsStore.Tests.dll": {}
+        }
+      },
+      "bootstrap/4.4.1": {
+        "dependencies": {
+          "jQuery": "3.0.0",
+          "popper.js": "1.16.0"
+        }
+      },
+      "Bower/1.3.11": {
+        "dependencies": {
+          "NoGit": "0.0.8",
+          "Node.js": "0.10.28"
         }
       },
       "Castle.Core/4.4.0": {
@@ -40,6 +54,7 @@
         }
       },
       "coverlet.collector/1.2.1": {},
+      "jQuery/3.0.0": {},
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "dependencies": {
           "System.Text.Encodings.Web": "4.5.0"
@@ -973,6 +988,12 @@
           }
         }
       },
+      "Node.js/0.10.28": {},
+      "NoGit/0.0.8": {
+        "dependencies": {
+          "Node.js": "0.10.28"
+        }
+      },
       "NuGet.Frameworks/5.0.0": {
         "runtime": {
           "lib/netstandard2.0/NuGet.Frameworks.dll": {
@@ -981,6 +1002,7 @@
           }
         }
       },
+      "popper.js/1.16.0": {},
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -2063,9 +2085,11 @@
       },
       "SportsStore/1.0.0": {
         "dependencies": {
+          "Bower": "1.3.11",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
-          "Moq": "4.13.1"
+          "Moq": "4.13.1",
+          "bootstrap": "4.4.1"
         },
         "runtime": {
           "SportsStore.dll": {}
@@ -2078,6 +2102,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "bootstrap/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/QO9//Z8IYv8VmxTS3VzLaQC3wYnJDNbACnZHgLEeMABYjNuVPToLa6VDP2S4KwU3gUFiXglhQYZ00cddSK0IQ==",
+      "path": "bootstrap/4.4.1",
+      "hashPath": "bootstrap.4.4.1.nupkg.sha512"
+    },
+    "Bower/1.3.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JNo9rMr25g1ZA1hv8aTzkDTiglq3FGTPoNOqNTGrwckYqJ9/DulmlndUduhPZWJXnIlYxo0krbwgwBtrCZvNqQ==",
+      "path": "bower/1.3.11",
+      "hashPath": "bower.1.3.11.nupkg.sha512"
     },
     "Castle.Core/4.4.0": {
       "type": "package",
@@ -2092,6 +2130,13 @@
       "sha512": "sha512-a4JYYZbEXk2UsrTEHlKrQxBVROeQkAg/Qwrf/XgZHGDXNctIrIu9MCihNKpFXC6cgj6wuXmWcPN++T9wOnhskA==",
       "path": "coverlet.collector/1.2.1",
       "hashPath": "coverlet.collector.1.2.1.nupkg.sha512"
+    },
+    "jQuery/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFfntV19HzCtKdJWOp/XT9PUY3SslokTDDLFJZdBug36j1XVhw1+vPQ/n7Gd5y+jdpesn5B1m1yn1qIUq57jlA==",
+      "path": "jquery/3.0.0",
+      "hashPath": "jquery.3.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
       "type": "package",
@@ -2443,12 +2488,33 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
+    "Node.js/0.10.28": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+dTpiaX8d5gyADdlR0Sz227IvMZ/QJWtyobqHDPqcJRykGdOfskW8yxde9WQRxY/Uyp+u5JN3KbBb2rkYdkT2Q==",
+      "path": "node.js/0.10.28",
+      "hashPath": "node.js.0.10.28.nupkg.sha512"
+    },
+    "NoGit/0.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5/qdluqNIPDSeF7gQ4Ab9xpFiyQrvfBtm/eGT5mErTCaEIdMNFidVlxMWc4ShPO7JK2KngyF5bybD3gxFCi/5A==",
+      "path": "nogit/0.0.8",
+      "hashPath": "nogit.0.0.8.nupkg.sha512"
+    },
     "NuGet.Frameworks/5.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-c5JVjuVAm4f7E9Vj+v09Z9s2ZsqFDjBpcsyS3M9xRo0bEdm/LVZSzLxxNvfvAwRiiE8nwe1h2G4OwiwlzFKXlA==",
       "path": "nuget.frameworks/5.0.0",
       "hashPath": "nuget.frameworks.5.0.0.nupkg.sha512"
+    },
+    "popper.js/1.16.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZJhaIouJ7dztoRoqj+KA1ADGpEIr+MzCWOkKm/Q6tu3CAauSsc+ZzXsxsD6RClRwieacqE3QNYNpaLU/mkVnWg==",
+      "path": "popper.js/1.16.0",
+      "hashPath": "popper.js.1.16.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
