@@ -205,3 +205,4 @@ C:\Users\ryanm\source\repos\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp3.
 C:\Users\ryanm\source\repos\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp3.1\SportsStore.dll
 C:\Users\ryanm\source\repos\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp3.1\SportsStore.pdb
 C:\Users\ryanm\source\repos\SportsStore\SportsStore.Tests\obj\Debug\netcoreapp3.1\SportsStore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\ryanm\source\repos\SportsStore\SportsStore.Tests\bin\Debug\netcoreapp3.1\bower.json

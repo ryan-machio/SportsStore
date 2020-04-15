@@ -24,6 +24,8 @@ namespace SportsStore
                 options.UseSqlServer(Configuration.GetConnectionString("ApplicationDbContext")));
             services.AddTransient<IProductRepository, EFProductRepository>();
             services.AddMvc();
+            services.AddMemoryCache();
+            services.AddSession();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -31,21 +33,34 @@ namespace SportsStore
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
-
+            app.UseSession();
             app.UseRouting();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    name: "pagination",
-                    pattern: "Products/Page{productPage}",
-                    defaults: new { Controller = "Product", action = "List" });
+                    name: null,
+                    pattern: "{category}/Page {productPage:int}",
+                    defaults: new { action = "Product", productPage = "List" });
 
                 endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Product}/{action=List}/{id?}");
+                    name: null,
+                    pattern: "Page{productPage:int}",
+                    defaults: new { action = "List", productPage = "1" });
+
+                endpoints.MapControllerRoute(
+                    name: null,
+                    pattern: "{category}",
+                    defaults: new {controller = "Product", action = "List", productPage = 1});
+            
+                endpoints.MapControllerRoute(
+                    name: null,
+                    pattern: "",
+                    defaults: new {controller = "Product", action = "List", productPage = 1});
+
+                endpoints.MapControllerRoute(name: null, pattern: "{controller}/{action}/{id?}");
             });
             SeedData.EnsurePopulated(app);
         }
-    }
+}
 }

@@ -139,3 +139,6 @@ C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razo
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.csproj.CoreCompileInputs.cache
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\SportsStore.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductSummary.cshtml.g.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\bin\Debug\netcoreapp3.1\bower.json
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\NavigationMenu\Default.cshtml.g.cs
+C:\Users\ryanm\source\repos\SportsStore\SportsStore\obj\Debug\netcoreapp3.1\Razor\Views\Cart\Index.cshtml.g.cs

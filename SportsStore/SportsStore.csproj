@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Views\Shared\Components\NavigationMenu\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
